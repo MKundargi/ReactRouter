@@ -1,0 +1,68 @@
+.active {
+  color: aquamarine;
+}
+
+.col1 {
+  border: 2px red solid;
+}
+.col2 {
+  border: 2px rgb(9, 189, 75) solid;
+}
+.col3 {
+  border: 2px rgb(9, 39, 189) solid;
+}
+.col4 {
+  border: 2px rgb(189, 9, 69) solid;
+}
+.col5 {
+  border: 2px rgb(9, 189, 123) solid;
+}
+
+.regisimg {
+  width: 50px;
+  color: orange;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
